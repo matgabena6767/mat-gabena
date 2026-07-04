@@ -1,0 +1,236 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+header {
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+.ricrol {
+    text-decoration:none;
+    color:white;
+    padding:20px;
+    background-color:#626363;
+    border:5px solid black;
+    border-radius:20px;
+   transition: all 0.9s;
+   display:flex;
+   justify-content:center;
+}
+.cart {
+    border-radius:40px;
+    border:5px solid white;
+    width:300px;
+    transition:all 0.9s;
+   margin:37px;
+    
+}
+.H1 {
+    font-family:Comic Sans MS;
+    text-align:center;
+}
+nav {
+    text-align:center;
+}
+.ricrol:hover {
+    background: #833AB4;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+.ricrol:active {
+    background-color:white;
+    color:black;
+    
+}
+.cart:hover {
+border: dashed black;
+}
+.cart_tho {
+    border-radius:40px;
+    border:5px solid white;
+    width:450px;
+    transition:all 0.5s;
+}
+.cart_tho:hover {
+   border: 10px solid #00ff9d;
+}
+.text_one {
+    background-color:#5500ff;
+    border:5px solid white;
+    border-radius:10px;
+    color:#ab0715;
+    transition:0.7s;
+}
+.text_one:hover {
+    background-color:white;
+    border: 7px solid #050505;
+    color:#ff0015;
+}
+
+.lev-title{
+    border:3px solid blue;
+    border-radius:10px;
+    background-color:white;
+    padding:15px;
+    text-align:center;
+    margin-top:50px;
+}
+
+.lev-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    margin-bottom:40px;
+}
+
+.lev-card{
+    width:300px;
+    background-color:white;
+    border:4px solid white;
+    border-radius:20px;
+    padding:15px;
+    transition:0.6s;
+}
+
+.lev-card img{
+    width:250px;
+    border-radius:15px;
+    border:3px solid gray;
+    transition:0.6s;
+}
+
+.lev-card h2{
+    color:darkblue;
+}
+
+.lev-card p{
+    font-size:18px;
+}
+
+.lev-card:hover{
+    transform:scale(1.05);
+    border:4px solid red;
+    background-color:#ffffb8;
+}
+
+.lev-card img:hover{
+    border:3px solid blue;
+}
+.card{
+    width: 350px;
+    margin: 20px auto;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px;
+}
+
+.card img{
+    width: 200px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.card h2{
+    color: darkblue;
+}
+
+.card p{
+    font-size: 18px;
+}
+.name {
+    padding:10px;
+    border:5px solid white;
+    border-radius:10px;
+    background: #00c0fa;
+background: radial-gradient(circle, rgba(0, 192, 250, 1) 0%, rgba(21, 0, 255, 1) 100%);
+}
+.start {
+    border:5px solid black;
+    border-radius:15px;
+    background: #ff0000;
+    background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(0, 255, 251, 1) 100%);
+     transition:10s;
+}
+.start:hover {
+    background: #00ffee;
+background: radial-gradient(circle, rgba(0, 255, 238, 1) 0%, rgba(255, 0, 0, 1) 100%);
+border:dashed white;
+}
+footer {
+    background: #ff0000;
+background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(80, 53, 181, 1) 54%, rgba(37, 245, 120, 1) 100%);
+padding: 40px;
+border:5px solid white;
+border-radius:5px;
+
+}
+.pohta {
+    font-size:34px;
+    background: #0bdeb4;
+background: radial-gradient(circle, rgba(11, 222, 180, 1) 0%, rgba(182, 233, 148, 1) 100%);
+padding:15px;
+border:7px solid black;
+border-radius:17px;
+display:flex;
+justify-content:center;
+}
+.card{
+    width: 350px;
+    margin: 20px auto;
+    border: 4px solid white;
+    border-radius: 20px;
+    background-color: white;
+    padding: 15px;
+    transition: 0.6s;
+}
+
+.card img{
+    width: 200px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.card h2{
+    color: darkblue;
+}
+
+.card p{
+    font-size: 18px;
+}
+
+/* Ефект при наведенні */
+
+.card:hover{
+    transform: scale(1.05);
+    border: 4px solid red;
+    background-color: #ffffb8;
+}
+
+.card img:hover{
+    border: 3px solid blue;
+}
+.card:hover{
+    transform: scale(1.05);
+    border: 4px solid red;
+    background-color: #ffffb8;
+    box-shadow: 0px 0px 20px black;
+}
+
+.lev-card:hover{
+    transform: scale(1.05);
+    border: 4px solid red;
+    background-color: #ffffb8;
+    box-shadow: 0px 0px 20px black;
+}
+.lev-card p{
+    text-align:left;
+}
+
+.lev-card b{
+    color:darkblue;
+}
